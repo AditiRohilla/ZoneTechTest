@@ -85,7 +85,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5188471939,
+  "duration": 5527216389,
   "status": "passed"
 });
 formatter.scenario({
@@ -148,21 +148,21 @@ formatter.match({
   "location": "HomepageSD.i_am_in_HomePage()"
 });
 formatter.result({
-  "duration": 163641246,
+  "duration": 131269999,
   "status": "passed"
 });
 formatter.match({
   "location": "HomepageSD.i_select_the_TV_option_under_More_option_in_header()"
 });
 formatter.result({
-  "duration": 1834328992,
+  "duration": 1728704449,
   "status": "passed"
 });
 formatter.match({
   "location": "IplayerSD.iplayer_page_is_opened()"
 });
 formatter.result({
-  "duration": 19653802,
+  "duration": 11084426,
   "status": "passed"
 });
 formatter.match({
@@ -175,36 +175,36 @@ formatter.match({
   "location": "HomepageSD.i_enter_in_search_box(String)"
 });
 formatter.result({
-  "duration": 1951509088,
+  "duration": 1988468095,
   "status": "passed"
 });
 formatter.match({
   "location": "IplayerSD.i_click_on_first_link()"
 });
 formatter.result({
-  "duration": 946430142,
+  "duration": 854722152,
   "status": "passed"
 });
 formatter.match({
   "location": "IplayerSD.i_select_Programme_website()"
 });
 formatter.result({
-  "duration": 854414119,
+  "duration": 703037197,
   "status": "passed"
 });
 formatter.match({
   "location": "EeMainPageSD.check_the_time_for_the_next_episode()"
 });
 formatter.result({
-  "duration": 1650451157,
+  "duration": 1793259912,
   "status": "passed"
 });
 formatter.after({
-  "duration": 137797989,
+  "duration": 137108286,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5438976164,
+  "duration": 5591467006,
   "status": "passed"
 });
 formatter.scenario({
@@ -260,53 +260,53 @@ formatter.match({
   "location": "HomepageSD.i_am_in_HomePage()"
 });
 formatter.result({
-  "duration": 7722962,
+  "duration": 9276303,
   "status": "passed"
 });
 formatter.match({
   "location": "HomepageSD.i_select_the_iPlayer()"
 });
 formatter.result({
-  "duration": 1839008232,
+  "duration": 2193578736,
   "status": "passed"
 });
 formatter.match({
   "location": "IplayerSD.i_click_on_channels_on_iplayer_page()"
 });
 formatter.result({
-  "duration": 357854084,
+  "duration": 81463684,
   "status": "passed"
 });
 formatter.match({
   "location": "IplayerSD.i_click_on_one()"
 });
 formatter.result({
-  "duration": 1130995642,
+  "duration": 1039541561,
   "status": "passed"
 });
 formatter.match({
   "location": "IplayerSD.i_click_on_Eastenders_link_under_soaps()"
 });
 formatter.result({
-  "duration": 121790948,
+  "duration": 123757421,
   "status": "passed"
 });
 formatter.match({
   "location": "IplayerSD.i_select_Programme_website()"
 });
 formatter.result({
-  "duration": 1869555355,
+  "duration": 10157411317,
   "status": "passed"
 });
 formatter.match({
   "location": "EeMainPageSD.check_the_time_for_the_next_episode()"
 });
 formatter.result({
-  "duration": 1580915556,
+  "duration": 1628027108,
   "status": "passed"
 });
 formatter.after({
-  "duration": 93968326,
+  "duration": 108049919,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -377,7 +377,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5983184321,
+  "duration": 3732546743,
   "status": "passed"
 });
 formatter.scenario({
@@ -438,7 +438,7 @@ formatter.match({
   "location": "HomepageSD.i_am_in_HomePage()"
 });
 formatter.result({
-  "duration": 13758014,
+  "duration": 6952448,
   "status": "passed"
 });
 formatter.match({
@@ -451,7 +451,7 @@ formatter.match({
   "location": "HomepageSD.i_enter_into_search_textbox(String)"
 });
 formatter.result({
-  "duration": 2524865029,
+  "duration": 2371855674,
   "status": "passed"
 });
 formatter.match({
@@ -464,32 +464,32 @@ formatter.match({
   "location": "SearchPageSD.search_page_for_is_displayed(String)"
 });
 formatter.result({
-  "duration": 19594399,
+  "duration": 24101470,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchPageSD.i_click_on_first_search_link()"
 });
 formatter.result({
-  "duration": 85228721,
+  "duration": 94305064,
   "status": "passed"
 });
 formatter.match({
   "location": "IplayerSD.i_select_Programme_website()"
 });
 formatter.result({
-  "duration": 2153084866,
+  "duration": 4492132884,
   "status": "passed"
 });
 formatter.match({
   "location": "EeMainPageSD.check_the_time_for_the_next_episode()"
 });
 formatter.result({
-  "duration": 1471863197,
+  "duration": 1642100822,
   "status": "passed"
 });
 formatter.after({
-  "duration": 76365579,
+  "duration": 100874699,
   "status": "passed"
 });
 });
