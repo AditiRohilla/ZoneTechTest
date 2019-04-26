@@ -85,7 +85,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5527216389,
+  "duration": 5487819876,
   "status": "passed"
 });
 formatter.scenario({
@@ -148,21 +148,21 @@ formatter.match({
   "location": "HomepageSD.i_am_in_HomePage()"
 });
 formatter.result({
-  "duration": 131269999,
+  "duration": 288127854,
   "status": "passed"
 });
 formatter.match({
   "location": "HomepageSD.i_select_the_TV_option_under_More_option_in_header()"
 });
 formatter.result({
-  "duration": 1728704449,
+  "duration": 1808790833,
   "status": "passed"
 });
 formatter.match({
   "location": "IplayerSD.iplayer_page_is_opened()"
 });
 formatter.result({
-  "duration": 11084426,
+  "duration": 17035765,
   "status": "passed"
 });
 formatter.match({
@@ -175,40 +175,40 @@ formatter.match({
   "location": "HomepageSD.i_enter_in_search_box(String)"
 });
 formatter.result({
-  "duration": 1988468095,
+  "duration": 2189917883,
   "status": "passed"
 });
 formatter.match({
   "location": "IplayerSD.i_click_on_first_link()"
 });
 formatter.result({
-  "duration": 854722152,
+  "duration": 1038577896,
   "status": "passed"
 });
 formatter.match({
   "location": "IplayerSD.i_select_Programme_website()"
 });
 formatter.result({
-  "duration": 703037197,
+  "duration": 778583353,
   "status": "passed"
 });
 formatter.match({
   "location": "EeMainPageSD.check_the_time_for_the_next_episode()"
 });
 formatter.result({
-  "duration": 1793259912,
+  "duration": 1686071996,
   "status": "passed"
 });
 formatter.after({
-  "duration": 137108286,
+  "duration": 92290127,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5591467006,
+  "duration": 6510839713,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 19,
+  "line": 18,
   "name": "check the time of EastEnder next Epsoide via iPlayer icon",
   "description": "",
   "id": "verify-the-eastenders-next-epsoide-time;check-the-time-of-eastender-next-epsoide-via-iplayer-icon",
@@ -216,43 +216,43 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 18,
+      "line": 17,
       "name": "@iplayerchannels"
     }
   ]
 });
 formatter.step({
-  "line": 20,
+  "line": 19,
   "name": "I am in HomePage",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 21,
+  "line": 20,
   "name": "I select the iPlayer",
   "keyword": "When "
 });
 formatter.step({
-  "line": 22,
+  "line": 21,
   "name": "I click on channels on iplayer page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 23,
+  "line": 22,
   "name": "I click on one",
   "keyword": "And "
 });
 formatter.step({
-  "line": 24,
+  "line": 23,
   "name": "I click on Eastenders link under soaps",
   "keyword": "And "
 });
 formatter.step({
-  "line": 25,
+  "line": 24,
   "name": "I select Programme website",
   "keyword": "And "
 });
 formatter.step({
-  "line": 26,
+  "line": 25,
   "name": "check the time for the next episode",
   "keyword": "Then "
 });
@@ -260,57 +260,57 @@ formatter.match({
   "location": "HomepageSD.i_am_in_HomePage()"
 });
 formatter.result({
-  "duration": 9276303,
+  "duration": 40428550,
   "status": "passed"
 });
 formatter.match({
   "location": "HomepageSD.i_select_the_iPlayer()"
 });
 formatter.result({
-  "duration": 2193578736,
+  "duration": 2240742914,
   "status": "passed"
 });
 formatter.match({
   "location": "IplayerSD.i_click_on_channels_on_iplayer_page()"
 });
 formatter.result({
-  "duration": 81463684,
+  "duration": 171408052,
   "status": "passed"
 });
 formatter.match({
   "location": "IplayerSD.i_click_on_one()"
 });
 formatter.result({
-  "duration": 1039541561,
+  "duration": 1109306151,
   "status": "passed"
 });
 formatter.match({
   "location": "IplayerSD.i_click_on_Eastenders_link_under_soaps()"
 });
 formatter.result({
-  "duration": 123757421,
+  "duration": 133321835,
   "status": "passed"
 });
 formatter.match({
   "location": "IplayerSD.i_select_Programme_website()"
 });
 formatter.result({
-  "duration": 10157411317,
+  "duration": 2185864805,
   "status": "passed"
 });
 formatter.match({
   "location": "EeMainPageSD.check_the_time_for_the_next_episode()"
 });
 formatter.result({
-  "duration": 1628027108,
+  "duration": 1443142149,
   "status": "passed"
 });
 formatter.after({
-  "duration": 108049919,
+  "duration": 151682316,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 29,
+  "line": 28,
   "name": "Verify the next Epsoide of EastEnders displayed",
   "description": "",
   "id": "verify-the-eastenders-next-epsoide-time;verify-the-next-epsoide-of-eastenders-displayed",
@@ -318,43 +318,43 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 28,
+      "line": 27,
       "name": "@search"
     }
   ]
 });
 formatter.step({
-  "line": 30,
+  "line": 29,
   "name": "I am in HomePage",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 31,
+  "line": 30,
   "name": "I enter \"\u003csearch\u003e\" into search textbox",
   "keyword": "When "
 });
 formatter.step({
-  "line": 32,
+  "line": 31,
   "name": "search page for \"\u003csearch\u003e\" is displayed",
   "keyword": "And "
 });
 formatter.step({
-  "line": 33,
+  "line": 32,
   "name": "I click on first search link",
   "keyword": "And "
 });
 formatter.step({
-  "line": 34,
+  "line": 33,
   "name": "I select Programme website",
   "keyword": "And "
 });
 formatter.step({
-  "line": 35,
+  "line": 34,
   "name": "check the time for the next episode",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 36,
+  "line": 35,
   "name": "",
   "description": "",
   "id": "verify-the-eastenders-next-epsoide-time;verify-the-next-epsoide-of-eastenders-displayed;",
@@ -363,25 +363,25 @@ formatter.examples({
       "cells": [
         "search"
       ],
-      "line": 37,
+      "line": 36,
       "id": "verify-the-eastenders-next-epsoide-time;verify-the-next-epsoide-of-eastenders-displayed;;1"
     },
     {
       "cells": [
         "EastEnders"
       ],
-      "line": 38,
+      "line": 37,
       "id": "verify-the-eastenders-next-epsoide-time;verify-the-next-epsoide-of-eastenders-displayed;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3732546743,
+  "duration": 5303802935,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 38,
+  "line": 37,
   "name": "Verify the next Epsoide of EastEnders displayed",
   "description": "",
   "id": "verify-the-eastenders-next-epsoide-time;verify-the-next-epsoide-of-eastenders-displayed;;2",
@@ -389,7 +389,7 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 28,
+      "line": 27,
       "name": "@search"
     },
     {
@@ -399,12 +399,12 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 30,
+  "line": 29,
   "name": "I am in HomePage",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 31,
+  "line": 30,
   "name": "I enter \"EastEnders\" into search textbox",
   "matchedColumns": [
     0
@@ -412,7 +412,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 32,
+  "line": 31,
   "name": "search page for \"EastEnders\" is displayed",
   "matchedColumns": [
     0
@@ -420,17 +420,17 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 33,
+  "line": 32,
   "name": "I click on first search link",
   "keyword": "And "
 });
 formatter.step({
-  "line": 34,
+  "line": 33,
   "name": "I select Programme website",
   "keyword": "And "
 });
 formatter.step({
-  "line": 35,
+  "line": 34,
   "name": "check the time for the next episode",
   "keyword": "Then "
 });
@@ -438,7 +438,7 @@ formatter.match({
   "location": "HomepageSD.i_am_in_HomePage()"
 });
 formatter.result({
-  "duration": 6952448,
+  "duration": 8194499,
   "status": "passed"
 });
 formatter.match({
@@ -451,7 +451,7 @@ formatter.match({
   "location": "HomepageSD.i_enter_into_search_textbox(String)"
 });
 formatter.result({
-  "duration": 2371855674,
+  "duration": 2333209747,
   "status": "passed"
 });
 formatter.match({
@@ -464,32 +464,32 @@ formatter.match({
   "location": "SearchPageSD.search_page_for_is_displayed(String)"
 });
 formatter.result({
-  "duration": 24101470,
+  "duration": 12738723,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchPageSD.i_click_on_first_search_link()"
 });
 formatter.result({
-  "duration": 94305064,
+  "duration": 74473410,
   "status": "passed"
 });
 formatter.match({
   "location": "IplayerSD.i_select_Programme_website()"
 });
 formatter.result({
-  "duration": 4492132884,
+  "duration": 2442285431,
   "status": "passed"
 });
 formatter.match({
   "location": "EeMainPageSD.check_the_time_for_the_next_episode()"
 });
 formatter.result({
-  "duration": 1642100822,
+  "duration": 1553303581,
   "status": "passed"
 });
 formatter.after({
-  "duration": 100874699,
+  "duration": 105076867,
   "status": "passed"
 });
 });

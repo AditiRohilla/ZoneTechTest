@@ -64,7 +64,7 @@ public class Iplayer extends BaseClassZTT {
 	}
 
 	public void i_click_on_Eastenders_link_under_soaps() {
-		driver.findElement(By.cssSelector("a[aria-label*='EastEnders. Description: Drama.']")).click();
+		driver.findElement(By.cssSelector("a[aria-label*='EastEnders. Description']")).click();
 
 	}
 

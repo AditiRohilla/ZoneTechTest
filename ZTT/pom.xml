@@ -57,21 +57,47 @@
  </dependencies>  
  <build>
     <plugins>
-        <plugin>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.1</version>
-            <configuration>
-                <source>1.8</source>
-                <target>1.8</target>
-            </configuration>
-        </plugin>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>2.12</version>
-            
-        </plugin>
-    </plugins>
+   <!-- MAVEN COMPILER PLUGIN -->
+   <plugin> 
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>2.3.2</version>
+    <configuration>
+     <source>1.6</source>
+     <target>1.6</target>     
+     <fork>true</fork>
+    </configuration>
+   </plugin>
+   
+   
+   <!-- MAVEN SUREFIRE PLUGIN -->
+   <plugin>
+       <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.10</version>
+          <configuration>
+           <!-- INCLUDE ALL TEST SCRIPT FILES -->
+           <includes>
+            <include>**/*.java</include>
+           </includes>   
+           <!-- PASS FRAMEWORK PROPERTIES FOR USE BY SUREFIRE -->
+           <systemProperties>
+               <property>
+                <name>test_phase</name>
+                <value>${test_phase}</value>
+               </property>
+               <property>
+                <name>test_environment</name>
+                <value>${test_environment}</value>
+               </property>
+               <property>
+                <name>debug_switch</name>
+                <value>${debug_switch}</value>
+               </property>
+             </systemProperties>
+          </configuration>
+         </plugin>
+  </plugins>  
 </build>
 </project>
 

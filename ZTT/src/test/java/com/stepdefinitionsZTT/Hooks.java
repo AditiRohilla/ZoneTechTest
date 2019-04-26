@@ -11,7 +11,7 @@ public class Hooks extends BaseClassZTT {
 	@Before
 	public void start() {
 
-		System.setProperty("webdriver.chrome.driver", "/Users/Varun/Desktop/WebDriverFolder/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chromedriver");
 		driver = new ChromeDriver();
 		driver.get("https://bbc.co.uk/");
 		driver.manage().window().maximize();
